@@ -1,0 +1,99 @@
+.card {
+  border-radius: var(--border-radius);
+  overflow: hidden;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-img__wrapper {
+  height: 130px;
+  overflow: hidden;
+}
+
+.card-img__wrapper img {
+  width: 100%;
+}
+
+.card-info {
+  flex-grow: 1;
+  padding: 13px 12px 32px 12px;
+  background: #fff;
+}
+
+.card-info__category {
+  text-transform: uppercase;
+  color: var(--tigerhall-orange);
+  font-size: 12px;
+  font-family: "AvertaStd-Bold";
+  margin-bottom: 5px;
+}
+.card-info__name {
+  font-size: 18px;
+  font-family: "AvertaStd-Bold";
+  color: #000;
+  line-height: 22px;
+  margin-bottom: 6px;
+}
+
+.card-info__expert-name {
+  font-family: "AvertaStd-Semibold";
+  font-size: 14px;
+  margin-bottom: 3px;
+}
+
+.card-info__expert-title {
+  text-transform: uppercase;
+  font-family: "AvertaStd-Semibold";
+  font-size: 14px;
+  margin-bottom: 3px;
+}
+
+.card-info__expert-company {
+  color: var(--tigerhall-orange);
+  font-family: "AvertaStd-Bold";
+  font-size: 14px;
+}
+
+@media screen and (min-width: 576px) {
+  .card {
+    width: calc((100% - 20px) / 2);
+    margin-right: 20px;
+  }
+
+  .card:nth-child(2n) {
+    margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .card {
+    width: calc((100% - 40px) / 3);
+  }
+
+  .card:nth-child(2n) {
+    margin-right: 20px;
+  }
+
+  .card:nth-child(3n) {
+    margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .card {
+    width: calc((100% - 60px) / 4);
+  }
+
+  .card:nth-child(2n) {
+    margin-right: 20px;
+  }
+
+  .card:nth-child(3n) {
+    margin-right: 20px;
+  }
+
+  .card:nth-child(4n) {
+    margin-right: 0;
+  }
+}

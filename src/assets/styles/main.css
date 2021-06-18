@@ -1,0 +1,22 @@
+:root {
+  --tigerhall-teal: #003238;
+  --tigerhall-orange: #ff8615;
+  --dark-teal: #001315;
+  --grey: #989898;
+  --border-radius: 5px;
+}
+
+@font-face {
+  font-family: "AvertaStd-Light";
+  src: url("../fonts/AvertaStd-Light.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: "AvertaStd-Semibold";
+  src: url("../fonts/AvertaStd-Semibold.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: "AvertaStd-Bold";
+  src: url("../fonts/AvertaStd-Bold.ttf") format("opentype");
+}

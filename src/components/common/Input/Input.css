@@ -1,0 +1,26 @@
+.search-input::placeholder {
+  font-family: "AvertaStd-Light";
+  color: var(--grey);
+  font-size: 14px;
+}
+
+.search-input {
+  background: var(--tigerhall-teal);
+  border-radius: var(--border-radius);
+  height: 30px;
+  padding: 10px;
+  outline: none;
+  color: var(--grey);
+  border: none;
+  margin-bottom: 13px;
+}
+
+@media screen and (min-width: 768px) {
+  .search-input::placeholder {
+    font-size: 16px;
+  }
+  .search-input {
+    font-size: 16px;
+    margin-bottom: 18px;
+  }
+}

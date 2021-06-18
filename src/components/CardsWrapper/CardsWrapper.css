@@ -1,0 +1,23 @@
+.cards-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.loadingWrapper {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 242342424;
+  font-size: 40px;
+}
+
+@media screen and (min-width: 576px) {
+  .cards-wrapper {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+  }
+}
